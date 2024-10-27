@@ -11,5 +11,7 @@ public class Exercice4 {
         double circleRadius = scanner.nextDouble();
         System.out.println("Le périmètre de votre cercle est de " + 2 * piValue * circleRadius + " !");
 
+        scanner.close();
+
     }
 }

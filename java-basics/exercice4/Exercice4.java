@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Afficher le périmètre d’un cercle dont le rayon est demandé à l’utilisateur
 public class Exercice4 {
     public static void main(String [] args) {
 

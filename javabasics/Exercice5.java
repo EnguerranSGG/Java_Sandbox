@@ -1,6 +1,9 @@
+package javabasics;
+
 import java.util.Scanner;
 
-// À partir d’une valeur saisie, vérifier si l’utilisateur est majeur ou mineur
+//À partir d’une valeur saisie, vérifier si l’utilisateur est majeur ou mineur
+
 public class Exercice5 {
     public static void main(String [] args) {
 

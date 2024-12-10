@@ -1,7 +1,8 @@
+package javabasics;
+
 import java.util.Scanner;
 
-
-// À partir d’une valeur saisie, indiquer si le nombre saisi est pair ou impair
+//À partir d’une valeur saisie, indiquer si le nombre saisi est pair ou impair
 
 public class Exercice6 {
 

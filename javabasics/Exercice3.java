@@ -1,3 +1,5 @@
+package javabasics;
+
 //Afficher le périmètre d’un cercle dont le rayon est une variable
 
 public class Exercice3 {

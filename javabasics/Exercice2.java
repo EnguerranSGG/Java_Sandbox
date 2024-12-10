@@ -1,3 +1,5 @@
+package javabasics;
+
 //Reprendre l’exercice n°1 en utilisant une variable
 
 public class Exercice2 {

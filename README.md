@@ -1,8 +1,39 @@
 # Java Sandbox
 
-Ce repository me sert de bac à sable pour mon apprentissage de Java, vous y trouverez essentiellement des petits exercices.  
+Ce repository me sert de bac à sable pour mon apprentissage de Java, vous y trouverez essentiellement du cour et des petits exercices.  
+
+## La compilation et l'éxecution en Java
+
+### La compilation en Java
+
+La compilation en java est le processus qui va convertir notre code source (celui que nous, développeur, écrivons) et le transformer en code intermédiaire appelé bytecode. Ce dernier est alors stocké dans un fochier '.class'. 
+
+La commande pour effectuer cette compilation est :
+
+```
+javac NomDuFichier.java
+```
+
+### L'éxecution 
+
+C'est la Java Virtual Machine (JVM) qui est responsable de l'éxecution en java, on lance l'éxecution via la commande :
+
+```
+java NomDuFichier
+```
+
+La JVM va alors interpréter le bytecode et le traduire en instructions machines compréhensible par le système d'exploitation. Cela rend Java indépendant de la plateforme, puisque seul le bytecode est interprété.
+
+À noter que pendant l'exécution, la JVM gère automatiquement la mémoire grâce au Garbage Collector, qui récupère l'espace mémoire inutilisé.
+
+### Avantage de cette architecture
+
+Cette architecture revète plusieurs avantage. Premièrement, grâce au bytecode et à la JVM, un programme Java peut s'exécuter sur n'importe quel système qui dispose d'une JVM (philosophie "Write Once, Run Anywhere"). Ensuite, JVM utilise des optimisations comme la compilation Just-In-Time (JIT) pour améliorer les performances à l'exécution. Enfin la JVM inclut des vérifications de bytecode pour prévenir certains types d'erreurs ou d'attaques.
 
 ## Programmation orientée objet 
+
+### Les grands principes
+
 
 ### Définitions importantes
 
